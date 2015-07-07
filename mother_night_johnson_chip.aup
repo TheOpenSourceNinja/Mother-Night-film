@@ -1,8 +1,10 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="mother_night_johnson_chip_data" version="1.3.0" audacityversion="2.0.6" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="175.4739896509" zoom="12.4690844743" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
-	<tags/>
-	<wavetrack name="mother_night_johnson_chip" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="mother_night_johnson_chip_data" version="1.3.0" audacityversion="2.0.6" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="3.8272600663" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
+	<tags>
+		<tag name="YEAR" value="2015"/>
+	</tags>
+	<wavetrack name="mother_night_johnson_chip" channel="2" linked="0" mute="0" solo="0" height="260" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
 		<waveclip offset="9.08246754">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="669538">
 				<waveblock start="0">
@@ -135,140 +137,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="mother_night_johnson_chip" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
-		<waveclip offset="9.08246754">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="669538">
-				<waveblock start="0">
-					<simpleblockfile filename="e000026c.au" len="162178" min="-0.856544" max="0.678499" rms="0.085028"/>
-				</waveblock>
-				<waveblock start="162178">
-					<simpleblockfile filename="e0000541.au" len="162178" min="-0.527105" max="0.477456" rms="0.100224"/>
-				</waveblock>
-				<waveblock start="324356">
-					<simpleblockfile filename="e0000c87.au" len="172591" min="-0.610993" max="0.373367" rms="0.07779"/>
-				</waveblock>
-				<waveblock start="496947">
-					<simpleblockfile filename="e0000725.au" len="172591" min="-0.425986" max="0.336407" rms="0.054091"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="2">
-				<controlpoint t="0.000000000000" val="1.000000000000"/>
-				<controlpoint t="15.182244897959" val="1.000000000000"/>
-			</envelope>
-		</waveclip>
-		<waveclip offset="29.31722945">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="716808">
-				<waveblock start="0">
-					<simpleblockfile filename="e0000087.au" len="179106" min="-0.338568" max="0.294656" rms="0.056828"/>
-				</waveblock>
-				<waveblock start="179106">
-					<simpleblockfile filename="e0000fe1.au" len="262144" min="-0.41997" max="0.277157" rms="0.041394"/>
-				</waveblock>
-				<waveblock start="441250">
-					<simpleblockfile filename="e000035a.au" len="137779" min="-0.353117" max="0.262213" rms="0.025324"/>
-				</waveblock>
-				<waveblock start="579029">
-					<simpleblockfile filename="e000041a.au" len="137779" min="-0.146201" max="0.120556" rms="0.011749"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="2">
-				<controlpoint t="0.000000000000" val="1.000000000000"/>
-				<controlpoint t="16.254126984127" val="1.000000000000"/>
-			</envelope>
-		</waveclip>
-		<waveclip offset="49.58128841">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="1007406">
-				<waveblock start="0">
-					<simpleblockfile filename="e0000ad1.au" len="248730" min="-0.356523" max="0.273885" rms="0.044803"/>
-				</waveblock>
-				<waveblock start="248730">
-					<simpleblockfile filename="e000083c.au" len="262144" min="-0.673837" max="0.6733" rms="0.064306"/>
-				</waveblock>
-				<waveblock start="510874">
-					<simpleblockfile filename="e0000274.au" len="262144" min="-0.665779" max="0.432304" rms="0.085916"/>
-				</waveblock>
-				<waveblock start="773018">
-					<simpleblockfile filename="e0000ca1.au" len="234388" min="-0.782707" max="0.633765" rms="0.054505"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="2">
-				<controlpoint t="0.000000000000" val="1.000000000000"/>
-				<controlpoint t="22.843650793651" val="1.000000000000"/>
-			</envelope>
-		</waveclip>
-		<waveclip offset="78.52004125">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="437834">
-				<waveblock start="0">
-					<simpleblockfile filename="e00000be.au" len="144950" min="-0.856551" max="0.567804" rms="0.066258"/>
-				</waveblock>
-				<waveblock start="144950">
-					<simpleblockfile filename="e0000fef.au" len="144950" min="-0.189405" max="0.173883" rms="0.024694"/>
-				</waveblock>
-				<waveblock start="289900">
-					<simpleblockfile filename="e0000e33.au" len="147934" min="-0.122342" max="0.084337" rms="0.006596"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="2">
-				<controlpoint t="0.000000000000" val="1.000000000000"/>
-				<controlpoint t="9.928185941043" val="1.000000000000"/>
-			</envelope>
-		</waveclip>
-		<waveclip offset="142.58212740">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="667988">
-				<waveblock start="0">
-					<simpleblockfile filename="e00002e7.au" len="188177" min="-0.84262" max="0.646549" rms="0.116004"/>
-				</waveblock>
-				<waveblock start="188177">
-					<simpleblockfile filename="e0000242.au" len="188177" min="-0.598633" max="0.479635" rms="0.05881"/>
-				</waveblock>
-				<waveblock start="376354">
-					<simpleblockfile filename="e00009cd.au" len="145817" min="-0.494549" max="0.377297" rms="0.04264"/>
-				</waveblock>
-				<waveblock start="522171">
-					<simpleblockfile filename="e000019c.au" len="145817" min="-0.350183" max="0.297156" rms="0.034589"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="2">
-				<controlpoint t="0.000000000000" val="1.000000000000"/>
-				<controlpoint t="15.147097505669" val="1.000000000000"/>
-			</envelope>
-		</waveclip>
-		<waveclip offset="165.18770564">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="752454">
-				<waveblock start="0">
-					<simpleblockfile filename="e0000a1d.au" len="232654" min="-0.827348" max="0.549751" rms="0.072931"/>
-				</waveblock>
-				<waveblock start="232654">
-					<simpleblockfile filename="e000063e.au" len="262144" min="-0.370691" max="0.301552" rms="0.031239"/>
-				</waveblock>
-				<waveblock start="494798">
-					<simpleblockfile filename="e000035e.au" len="257656" min="-0.424702" max="0.348015" rms="0.030851"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="2">
-				<controlpoint t="0.000000000000" val="1.000000000000"/>
-				<controlpoint t="17.062426303855" val="1.000000000000"/>
-			</envelope>
-		</waveclip>
-		<waveclip offset="189.94920223">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="665664">
-				<waveblock start="0">
-					<simpleblockfile filename="e0000de9.au" len="154212" min="-0.390167" max="0.355377" rms="0.043783"/>
-				</waveblock>
-				<waveblock start="154212">
-					<simpleblockfile filename="e000040c.au" len="187282" min="-0.329532" max="0.287066" rms="0.035578"/>
-				</waveblock>
-				<waveblock start="341494">
-					<simpleblockfile filename="e00008ce.au" len="187282" min="-0.287557" max="0.275165" rms="0.024069"/>
-				</waveblock>
-				<waveblock start="528776">
-					<simpleblockfile filename="e0000dc1.au" len="136888" min="-0.110099" max="0.128042" rms="0.008564"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="0"/>
-		</waveclip>
-	</wavetrack>
-	<wavetrack name="Edvard Grieg - Peer Gynt Suite No. 1, Op. 46 - 02 - Aase&apos;s Death" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="0.891251" pan="0.0">
+	<wavetrack name="Edvard Grieg - Peer Gynt Suite No. 1, Op. 46 - 02 - Aase&apos;s Death" channel="0" linked="1" mute="0" solo="0" height="260" minimized="0" isSelected="0" rate="48000" gain="0.891251" pan="0.0">
 		<waveclip offset="4.99235417">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="13142264">
 				<waveblock start="0">
@@ -428,7 +297,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Edvard Grieg - Peer Gynt Suite No. 1, Op. 46 - 02 - Aase&apos;s Death" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="0.891251" pan="0.0">
+	<wavetrack name="Edvard Grieg - Peer Gynt Suite No. 1, Op. 46 - 02 - Aase&apos;s Death" channel="1" linked="0" mute="0" solo="0" height="260" minimized="0" isSelected="0" rate="48000" gain="0.891251" pan="0.0">
 		<waveclip offset="4.99235417">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="13142264">
 				<waveblock start="0">
