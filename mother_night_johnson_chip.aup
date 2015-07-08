@@ -1,10 +1,19 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="mother_night_johnson_chip_data" version="1.3.0" audacityversion="2.0.6" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="3.8272600663" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="mother_night_johnson_chip_data" version="1.3.0" audacityversion="2.0.6" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="6.1228987190" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
 	<tags>
 		<tag name="YEAR" value="2015"/>
 	</tags>
-	<wavetrack name="mother_night_johnson_chip" channel="2" linked="0" mute="0" solo="0" height="260" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+	<labeltrack name="Words" numlabels="7" height="118" minimized="0" isSelected="1">
+		<label t="9.08246754" t1="24.26473511" title="Eternities before the first-born day, Or ere the first sun fledged his wings of flame,"/>
+		<label t="29.31722945" t1="45.57137911" title="Calm Night, the everlasting and the same, A brooding mother over chaos lay."/>
+		<label t="49.58128841" t1="72.42496188" title="And whirling suns shall blaze and then decay, Shall run their fiery courses and then claim The haven of the darkness whence they came;"/>
+		<label t="78.52004125" t1="88.44824987" title="Back to Nirvanic peace shall grope their way."/>
+		<label t="142.58212740" t1="157.72924758" title="So when my feeble sun of life burns out, And sounded is the hour for my long sleep,"/>
+		<label t="165.18770564" t1="182.25015462" title="I shall, full weary of the feverish light, Welcome the darkness without fear or doubt,"/>
+		<label t="189.94920223" t1="205.04362400" title="And heavy-lidded, I shall softly creep Into the quiet bosom of the Night."/>
+	</labeltrack>
+	<wavetrack name="Chip&apos;s Reading" channel="2" linked="0" mute="0" solo="0" height="212" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
 		<waveclip offset="9.08246754">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="669538">
 				<waveblock start="0">
@@ -137,7 +146,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Edvard Grieg - Peer Gynt Suite No. 1, Op. 46 - 02 - Aase&apos;s Death" channel="0" linked="1" mute="0" solo="0" height="260" minimized="0" isSelected="0" rate="48000" gain="0.891251" pan="0.0">
+	<wavetrack name="Edvard Grieg - Peer Gynt Suite No. 1, Op. 46 - 02 - Aase&apos;s Death" channel="0" linked="1" mute="0" solo="0" height="260" minimized="0" isSelected="1" rate="48000" gain="0.891251" pan="0.0">
 		<waveclip offset="4.99235417">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="13142264">
 				<waveblock start="0">
@@ -297,7 +306,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Edvard Grieg - Peer Gynt Suite No. 1, Op. 46 - 02 - Aase&apos;s Death" channel="1" linked="0" mute="0" solo="0" height="260" minimized="0" isSelected="0" rate="48000" gain="0.891251" pan="0.0">
+	<wavetrack name="Edvard Grieg - Peer Gynt Suite No. 1, Op. 46 - 02 - Aase&apos;s Death" channel="1" linked="0" mute="0" solo="0" height="260" minimized="0" isSelected="1" rate="48000" gain="0.891251" pan="0.0">
 		<waveclip offset="4.99235417">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="13142264">
 				<waveblock start="0">
